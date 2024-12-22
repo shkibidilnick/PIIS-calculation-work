@@ -145,7 +145,7 @@ void runExampleFromGWF(ifstream& file, int exampleNumber, streampos& lastPositio
         return;
     }
 
-    int V = 5; // Поменяйте на реальное количество вершин, если оно известно
+    int V = 5;
     vector<vector<int>> incMatrix(edges.size(), vector<int>(V, 0));
 
     for (size_t i = 0; i < edges.size(); ++i) {
